@@ -26,12 +26,12 @@
   when: unarchive.changed
   register: make
 
-- name: configure lang.config
-  lineinfile: >
-    dest={{ se_prefix }}/vpnclient/lang.config
-    regexp=^(en|ja|cn)$
-    line={{ se_lang }}
-  when: make.changed
+#- name: configure lang.config
+#  lineinfile: >
+#    dest={{ se_prefix }}/vpnclient/lang.config
+#    regexp=^(en|ja|cn)$
+#    line={{ se_lang }}
+#  when: make.changed
 
 - name: install init script
   template: >
