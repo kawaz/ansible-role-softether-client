@@ -1,7 +1,7 @@
 kawaz.softether-client
 =========
 
-Install SoftEtherVPN Server.
+Install SoftEtherVPN Client.
 
 
 Requirements
