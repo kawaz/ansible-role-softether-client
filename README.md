@@ -1,4 +1,4 @@
-kawaz.AdobeMediaServer
+kawaz.softether-client
 =========
 
 Install SoftEtherVPN Server.
